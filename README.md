@@ -557,5 +557,50 @@ Ambas versiones lograron convertir correctamente los tres correos al esquema JSO
 El prompt Zero-Shot fue suficiente para obtener una salida válida y estructurada. Sin embargo, el enfoque Few-Shot proporciona ejemplos concretos sobre cómo convertir expresiones como "año y medio" y "6 meses", además de mostrar cómo utilizar null cuando un dato no está presente.
 
 En este caso, ambas técnicas obtuvieron resultados correctos, por lo que no se encontraron diferencias significativas en la salida final.
-=======
-# evaluacion02-ia
+
+# 4. README profesional y conclusión comparativa
+
+## 4.1 Flujo de trabajo
+
+```mermaid
+flowchart LR
+    A[Caso] --> B[Diseño del prompt]
+    B --> C[IA]
+    C --> D[Verificación]
+    D --> E[Documentación]
+``` 
+## 4.2 Checklist de entregables
+
+- [x] Análisis de las reseñas de RutaFácil.
+- [x] Prompt inicial y prompt estructurado.
+- [x] Cálculo del costo actual y optimizado.
+- [x] Cálculo del ahorro y porcentaje.
+- [x] Extracción estructurada con Gemini.
+- [x] Esquema JSON definido.
+- [x] Ejemplos Few-Shot diseñados.
+- [x] Validación de las salidas JSON.
+- [x] Comparación de resultados.
+- [x] README documentado en Markdown.
+- [x] Repositorio creado en GitHub.
+- [x] Archivos y capturas disponibles en el repositorio.
+
+## 4.3 Comparación de las IA
+
+| Criterio | ChatGPT | Claude | Gemini |
+| :--- | :---: | :---: | :---: |
+| **Calidad de la respuesta (1-5)** | 5 | 4 | 4 |
+| **Precisión** | Alta | Alta | Alta |
+| **Precio de la API (US$)** | Consultar precio oficial | Consultar precio oficial | Consultar precio oficial |
+| **N.º de prompts hasta resultado útil** | 1 | 1 | 1 |
+| **Tokens aproximados y costo estimado** | Variable | Variable | Variable |
+
+## 4.4 Conclusión comparativa
+Para esta evaluación, ChatGPT presentó buenos resultados principalmente por su capacidad para estructurar prompts, analizar información y generar respuestas organizadas. En la Pregunta 1 permitió construir un prompt estructurado para clasificar las reseñas de RutaFácil y obtener un conteo verificable de las categorías.
+
+En la Pregunta 2 permitió comprobar los cálculos relacionados con el consumo de tokens, los costos y el ahorro mensual. La optimización redujo el costo mensual de US$972 a US$792, generando un ahorro de US$180, equivalente al 18.52%.
+
+Para la Pregunta 3 se utilizó Gemini para realizar la extracción estructurada de información desde correos electrónicos y me convertirla al formato JSON solicitado. Los resultados obtenidos permitieron identificar correctamente nombres, puestos, años de experiencia, tecnologías, disponibilidad y pretensión salarial.
+
+ChatGPT resulta especialmente útil para tareas de análisis, diseño y refinamiento de prompts, mientras que Gemini fue adecuado para la extracción estructurada mediante ejemplos Few-Shot. Claude también puede utilizarse para tareas de generación y análisis de texto.
+
+En conclusión, no existe una única IA que sea mejor para todas las situaciones. La elección debe realizarse considerando la calidad de las respuestas, la precisión, el costo, la cantidad de prompts necesarios y las características de cada herramienta. La estructuración de los prompts permite establecer instrucciones más claras y facilita la verificación de los resultados.
