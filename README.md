@@ -557,3 +557,5 @@ Ambas versiones lograron convertir correctamente los tres correos al esquema JSO
 El prompt Zero-Shot fue suficiente para obtener una salida válida y estructurada. Sin embargo, el enfoque Few-Shot proporciona ejemplos concretos sobre cómo convertir expresiones como "año y medio" y "6 meses", además de mostrar cómo utilizar null cuando un dato no está presente.
 
 En este caso, ambas técnicas obtuvieron resultados correctos, por lo que no se encontraron diferencias significativas en la salida final.
+=======
+# evaluacion02-ia
